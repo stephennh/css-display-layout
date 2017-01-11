@@ -9,8 +9,8 @@ h1.title {
   background-color: #404040;
   color: white;
   height: 80px;
-  padding-top: 20;
-  margin: 0;
+  padding-top: 20px;
+  margin: 10px;
 }
 
 /* Menu */
@@ -27,15 +27,22 @@ h1.title {
 .head-link {
   width: 300px;
   margin:0 auto;
+  text-align: center;
 }
 
 /* 6 Photos Bar */
+div.main{
+  display: block;
+  text-align: center;
+}
+
 .number-photos {
   font-family: sans-serif;
   background-color: #6EFFDD;
   padding: 10px;
-  width: 90%;
+  width: 908px;
   margin: 10px auto;
+  text-align: left;
 }
 
 span.black {
@@ -44,13 +51,22 @@ span.black {
 }
 
 .photo-bank {
-  width: auto;
+  width: 950px;
   display: inline-block;
-  margin: 0px auto;
+  margin: 0px;
 }
 
 div.photo-bank ul {
+  padding: 0;
   list-style: none;
+  display: inline-block;
+  text-align: center;
+  margin: 0 auto;
+}
+
+div.photo-bank ul li {
+  display: inline-block;
+  text-align: center;
 }
 
 /* EDIT | DELETE */
@@ -81,4 +97,5 @@ footer{
   height: 60px;
   text-align: center;
   padding: 5px;
+  font-family: sans-serif;
 }
