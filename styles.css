@@ -1,0 +1,50 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+/* Bitmaker Title */
+h1.title {
+  font-family: sans-serif;
+  text-align: center;
+  background-color: #404040;
+  color: white;
+  height: 80px;
+  padding-top: 20;
+  margin: 0;
+}
+
+/* Menu */
+.display {
+  text-align: center;
+  display: inline-block;
+  background-color: #CCCCCC;
+  font-family: sans-serif;
+  font-weight: bold;
+  color: white;
+  padding: 10px;
+}
+
+.head-link {
+  width: 300px;
+  margin:0 auto;
+}
+
+/* 6 Photos Bar */
+.number-photos {
+  font-family: sans-serif;
+  background-color: #6EFFDD;
+  padding: 10px;
+  width: 90%;
+  margin: 10px auto;
+}
+
+span.black {
+  font-weight: bold;
+  border-bottom: 2px solid yellow;
+}
+
+.photo-bank {
+  width: auto;
+  display: inline-block;
+  margin: 0px auto;
+}
