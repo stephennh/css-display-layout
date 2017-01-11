@@ -30,8 +30,17 @@ h1.title {
   text-align: center;
 }
 
+.display a {
+  color: white;
+  text-decoration: none;
+}
+
+.display a:hover {
+  text-decoration: underline;
+}
+
 /* 6 Photos Bar */
-div.main{
+div.main {
   display: block;
   text-align: center;
 }
@@ -90,8 +99,13 @@ div ul li p {
   margin: 5px 0px 15px 0px;
 }
 
+.edit a, .delete a {
+  color: blue;
+  text-decoration: none;
+}
+
 /*FOOTER*/
-footer{
+footer {
   background-color: black;
   color: white;
   height: 60px;
