@@ -48,3 +48,28 @@ span.black {
   display: inline-block;
   margin: 0px auto;
 }
+
+div.photo-bank ul {
+  list-style: none;
+}
+
+/* EDIT | DELETE */
+span.edit {
+  color: blue;
+  font-family: sans-serif;
+  text-decoration: underline;
+}
+
+span.delete {
+  color: blue;
+  font-family: sans-serif;
+  text-decoration: underline;
+}
+
+/* EDIT | DELETE STYLE */
+div ul li p {
+  text-align: center;
+  background-color: #FFE11C;
+  padding: 10px;
+  margin: 5px 0px 15px 0px;
+}
