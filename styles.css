@@ -73,3 +73,12 @@ div ul li p {
   padding: 10px;
   margin: 5px 0px 15px 0px;
 }
+
+/*FOOTER*/
+footer{
+  background-color: black;
+  color: white;
+  height: 60px;
+  text-align: center;
+  padding: 5px;
+}
